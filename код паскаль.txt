@@ -1,0 +1,8 @@
+var a, b : integer;
+ c : integer;
+begin
+repeat
+ c := c + b;
+ b := 1;
+until (b > 5) or (c > 100);
+end.
